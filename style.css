@@ -1,6 +1,6 @@
 :root {
     --cinzaClaro: rgba(255, 255, 255, 0.733);
-    --cinzaEscuro: rgb(95, 94, 94);
+    --cinzaEscuro: rgb(59, 59, 59);
     --cinzaEscuroLeve: rgb(228, 228, 228);
     --selection: rgb(0, 162, 255);
 }
@@ -19,8 +19,9 @@
 }
 
 img {
-    width: 286px;
-    height: 180px;
+    height: 200px;
+    width: 200px;
+    clip-path: circle(50%);
 }
 
 .caixa .menu-items .menu-item {
@@ -127,4 +128,16 @@ h1+div {
 
 .texto div {
     padding-bottom: 10px;
+}
+.card1
+{
+    background-image: url('https://www.hypeness.com.br/1/2018/07/happy3.jpg');
+    width: 100px;
+    height: 100px;
+    clip-path: circle(50%);
+}
+
+.texto p {
+    color: var(--cinzaEscuro);
+    font-size: 10pt;
 }
